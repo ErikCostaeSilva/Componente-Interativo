@@ -1,0 +1,33 @@
+@media(max-width:1300px){
+    section{
+        width:40%;
+    }
+}
+@media(max-width:980px){
+    section{
+        width:50%;
+    }
+}
+@media(max-width:770px){
+    section{
+        width:60%;
+    }
+}
+@media(max-width:643px){
+    section{
+        width:70%;
+    }
+}
+@media(max-width:550px){
+    section{
+        width:85%;
+    }
+}
+@media(max-width:453px){
+    section{
+        width:100%;
+    }
+    section button {
+        padding:16px;
+    }
+}

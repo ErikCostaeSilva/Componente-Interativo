@@ -1,0 +1,97 @@
+:root{
+    --orange-submit:hsl(25, 97%, 53%);
+    --white:hsl(0, 0%, 100%);
+    --light-gray:hsl(217, 12%, 63%);
+    --medium-gray:hsl(216, 12%, 54%);
+    --dark-blue:hsl(213, 19%, 18%);
+    --dark-blue-low:rgb(42, 49, 59);
+    --very-dark-blue:hsl(216, 12%, 8%);
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:var(--very-dark-blue);
+}
+section{
+    width:30%;
+    background-color:var(--dark-blue);
+    margin:10% auto;
+    font-family: 'Overpass', sans-serif;
+    padding:25px;
+    border-radius:22px;
+}
+#img-star{
+    margin-bottom:22px;
+    background-color:var(--dark-blue-low);
+    padding:20px;
+    border-radius:50%;
+}
+section h1{
+    color:var(--white);
+    font-weight:400;
+    margin-bottom:10px;
+}
+section p{
+    color:var(--medium-gray);
+    font-size:15px;
+    line-height:22px;
+    margin-bottom:22px;
+}
+section button{
+    background-color:var(--dark-blue-low);
+    color:var(--medium-gray);
+    font-weight:700;
+    padding:20px;
+    border-radius:50%;
+    border:none;
+    cursor:pointer;
+    margin-right:16px;
+    margin-bottom:22px;
+}
+section button:hover{
+    background-color:var(--light-gray);
+    color:var(--white);
+    transition:1s;
+}
+  section button:focus{  
+    background-color:var(--orange-submit);
+    color:var(--white);
+}
+#submit{
+    background-color:var(--orange-submit);
+    color:var(--white);
+    border-radius:40px;
+    width:100%;
+    padding:12px;
+}
+#submit:hover{
+    background-color:var(--white);
+    color:var(--orange-submit);
+    transition:1s;
+}
+
+/* Alterações classes JavaScript */
+.thankYouIllustration{
+    display:block;
+    margin:30px auto;
+}
+.paragraphValueSelect {
+    background-color: var(--dark-blue-low);
+    color: var(--orange-submit);
+    padding: 5px;
+    border-radius: 20px;
+    width: 228px;
+    margin:0px auto 30px;
+    text-align:center;
+}
+.titleThankYou{
+    text-align:center;
+}
+.paragraphThankYou{
+    text-align:center;
+}
